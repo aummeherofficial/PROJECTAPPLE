@@ -1,69 +1,26 @@
-Applelytics
+Applelytics – Custom Apple Configuration & Order Analytics System
 
-Custom Apple Configuration & Order Analytics System
+A backend-driven Apple device configuration and analytics system built using Python, SQLite, Pandas, NumPy, and data visualization techniques.
 
-1️⃣ Project Overview
+📌 Project Overview
 
-Applelytics is a Python-based backend system that simulates a configurable Apple device ordering platform integrated with a data analytics engine.
+Applelytics is a configuration-based ordering system that allows users to customize Apple devices and analyze sales data.
 
-The system:
+Unlike a simple configuration program, this system integrates:
 
-Collects structured user configuration inputs
+Dynamic pricing logic
 
-Calculates dynamic pricing
-
-Stores order data in a persistent SQLite database
-
-Performs analytical reporting using Pandas and NumPy
-
-Generates visual insights using Matplotlib
-
-This project demonstrates backend logic integration with data analytics workflows.
-
-2️⃣ Core Functionalities
-🔹 Device Configuration Module
-
-Model selection
-
-Variant selection
-
-Storage configuration
-
-Color selection
-
-Refresh rate selection (60Hz / 120Hz)
-
-Accessory integration
-
-Dynamic total price calculation
-
-Discount handling
-
-🔹 Data Persistence Layer
-
-SQLite database integration
-
-Google Drive permanent storage
-
-Automatic table creation (CREATE TABLE IF NOT EXISTS)
+Persistent SQLite database storage
 
 Structured order logging
 
-CSV export support
+Data analytics and visualization
 
-🔹 Analytics Engine
+Google Drive-based permanent database integration
 
-Total Revenue calculation
+The project simulates a real-world backend workflow combined with data analytics.
 
-Average Order Value computation
-
-Most Sold Model identification
-
-Model-wise Sales Distribution (Bar Chart)
-
-Storage Preference Distribution (Pie Chart)
-
-3️⃣ Tech Stack
+🛠️ Technologies Used
 
 Python
 
@@ -79,61 +36,92 @@ Google Colab
 
 Google Drive Integration
 
-4️⃣ System Workflow
+🔄 Project Workflow
 
-User Input
+User selects device configuration options (Model, Variant, Storage, Color, Refresh Rate, Accessories)
 
-Configuration Validation
+System calculates total price dynamically
 
-Dynamic Pricing Calculation
+Order data is stored in a persistent SQLite database
 
-Database Storage
+Data is retrieved and processed using Pandas
 
-Data Retrieval
+Numerical analysis is performed using NumPy
 
-Analytical Processing
+Clean dataset is exported to CSV
 
-Visualization Output
+Visualizations are generated for analytical insights
 
-5️⃣ Database Structure
+📊 Key Features
 
-The SQLite database stores the following structured fields:
+Dynamic device configuration system
 
-Date
+Automatic pricing engine
 
-Model
+Discount handling logic
 
-Variant
+Persistent database storage (Google Drive)
 
-Storage
+Revenue and average order value analysis
 
-Color
+Most sold model identification
 
-Refresh Rate
+Model-wise sales visualization
 
-Accessories
+Storage preference distribution chart
 
-Discount
+Structured CSV report generation
 
-Final Price
+Beginner-friendly but industry-oriented backend project
+
+📁 Project Files
+
+Applelytics.ipynb – Main project notebook
+
+requirements.txt – Required Python libraries
+
+images/ – Output and visualization screenshots
+
+README.md – Project documentation
 
 Note:
-Database and CSV files are runtime-generated and stored in Google Drive. They are not included in this repository.
+Database and CSV files are generated dynamically and stored in Google Drive. They are not included in this repository.
 
-6️⃣ Key Learning Outcomes
+▶️ How to Run
 
-This project strengthened understanding of:
+Open the notebook in Google Colab or Jupyter Notebook
 
-Modular function design
+Install required libraries (if needed) using requirements.txt
 
-Backend logic structuring
+Mount Google Drive for permanent database storage
 
-Persistent data storage
+Run cells sequentially
 
-SQL integration within Python
+Enter configuration details when prompted
 
-Data manipulation using Pandas
+📈 Analytics Generated
 
-Numerical computation using NumPy
+Total Revenue
 
-Professional data visualization practices
+Average Order Value
+
+Most Sold Model
+
+Model-wise Sales Distribution (Bar Chart)
+
+Storage Preference Distribution (Pie Chart)
+
+📌 Version Information
+
+Current Version: 2.0
+
+Integrated permanent SQLite storage via Google Drive
+
+Refactored execution flow
+
+Improved database handling
+
+📌 Author
+
+Aum Auroansu Meher
+MCA Student | Aspiring Data Scientist
